@@ -31,6 +31,14 @@ async def test_create_user(async_client):
     assert response.status_code == 201
 
 @pytest.mark.asyncio
+async def test_retrieve_user2(async_client, user, token):
+    headers = {"Authorization": f"Bearer {token}"}
+    response = await async_client.get(f"/users/{user.id}", headers=headers)
+    assert response.status_code == 200
+    assert response.json()["username"] == str(user.username)
+    
+
+@pytest.mark.asyncio
 async def test_create_user2(async_client):
     form_data = {
         "username": "admin",
