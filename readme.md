@@ -31,7 +31,7 @@
 ## Issue5 - Null fields in User retrieval 
 [Issue_link](https://github.com/aravind0815/event_manager_HW10/issues/9)
 
-[Solution_for_issue](https://github.com/aravind0815/event_manager_HW10/issues/9)
+[Solution_for_issue](https://github.com/aravind0815/event_manager_HW10/commit/0f36771fa0285d6403c944e5b42ff1797bf8d070)
 
 [Documentation](https://github.com/aravind0815/event_manager_HW10/commit/d67e66020e76df3e099c4c066a2ce588d4774541)
 
